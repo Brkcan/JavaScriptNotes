@@ -5,5 +5,7 @@ function writeln (n)
 
 function main ()
 {
-    
+    setInterval(() => writeln(`.`), 1000)
 }
+
+main ()
